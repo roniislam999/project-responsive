@@ -1,0 +1,48 @@
+* {
+    border: 0;
+    margin: 0;
+}
+
+* {
+    font-family: Work Sans;
+}
+
+/* header sectione */
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border: 10px;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+}
+
+.nav-left-side {
+    display: flex;
+
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-right-side {
+    display: flex;
+}
+
+.nav-right-side a {
+    margin-right: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav-container h3 {
+    font-size: 25px;
+}
+
+.nav-container img {
+    width: 50px;
+}
+
+.G {
+    color: #FF42A5;
+}
