@@ -119,6 +119,39 @@
 div img{
     margin-top: 50px;
     width: 70%;
-    margin-left: 30px;
+    margin-left: 45px;
+}
+/* play sectione */
+.play-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.third-universiry{
+    width: 70%;
+    margin-top: 70px;
+    margin-bottom: 48px;
+}
+.pic-too{
+    position: relative;
+}
+.angle{
+    width: 33%;
+    position: absolute;
+    top: -310px;
+    left:-20px;
+}
+
+
+.play-container{
+    position: relative;
+}
+.Play-Instantly-text h3{
+    font-size: 40px;
+}
+.Play-Instantly-text{
+    color: #0B0223;
+    margin-top: 200px;
+    margin-left: 100px;
 }
 
