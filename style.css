@@ -212,3 +212,63 @@ div img {
     gap: 80px;
 
 }
+/* footer sectone */
+.footer-image{
+    
+    border: 2px solid red;
+    margin-top: 30px;
+    background-color: #0B0223;
+}
+.footer-img-container{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.footer-img-container img{
+    width: 60px;
+}
+.footer-img-container h3{
+    font-size: 30px;
+    margin-top: 50px;
+}
+.descriptone-footer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 25px;
+    font-size: 15px;
+    color: #FFF;
+    margin-left: 50px;
+}
+.amar{
+    color: white;
+}
+.icon-logo-container{
+    margin-bottom: 30px;
+    margin-left:490px;
+    align-items: center;
+}
+.icon-logo{
+    width: 40px;
+  
+}
+.footer-small-container{
+    margin-bottom: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;    
+    /* margin-top: 50px; */
+    gap: 30px;
+}
+
+.footer-small{
+    color: rgba(255, 255, 255, 0.60);
+   
+}
+.footer-last-part{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
