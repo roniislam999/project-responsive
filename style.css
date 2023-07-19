@@ -20,7 +20,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-right: 180px;
+    margin-right: 300px;
 }
 
 .nav-right-side {
@@ -34,11 +34,11 @@
 }
 
 .nav-container h3 {
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .nav-container img {
-    width: 50px;
+    width: 60px;
     margin-bottom: 50px;
 }
 
@@ -50,6 +50,7 @@
 .banner-container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 
 }
 
@@ -59,9 +60,11 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 600px;
+    /* width: 600px; */
     height: 400px;
     padding-left: 190px;
+    padding-right: 200px;
+    padding-top: 50px;
 
 }
 
@@ -72,7 +75,7 @@
 
 .banner-container-img img {
     width: 60%;
-    margin-left: 80px;
+    padding-left: 130px;
 }
 
 
@@ -263,4 +266,8 @@ div img {
 .footer-last-part{
     margin-top: 10px;
     text-align: center;
+}
+
+.display-none{
+    display: none;
 }

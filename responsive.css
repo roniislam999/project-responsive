@@ -11,29 +11,28 @@
         
     }
     .nav-left-side{
-        margin-left: 140px;
+        margin-left: 220px;
     }
     .nav-right-side a{
-        margin-top: 40px;
+        margin-top: 20px;
     }
-    
-
-    .banner-container{
-        flex-direction: column;
-    }
-
 
     .banner-title-container{
-        font-size: 50px;
-        width: 50px;
-        margin-right: 200px;
+        padding-left: 10px;
+    padding-right: 20px;
+    }
+    .banner-container-img {
+        padding-left: 0px;
+    }
+    .banner-container{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .banner-container-img img {
+        width: 70%;
+        padding-left: 0;
+    }
 
-        
-    }
-    .banner-container-img img{
-        width: 100px;
-    
-    }
 }
 
 
