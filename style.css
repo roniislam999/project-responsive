@@ -9,6 +9,7 @@
 
 /* header sectione */
 .nav-container {
+    height: 80px;
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -25,12 +26,18 @@
 
 .nav-right-side {
     display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .nav-right-side a {
-    margin-right: 20px;
     text-decoration: none;
-    text-align: center;
+    padding: 4px 8px ;
+    border-radius: 10px;
+}
+.nav-right-side a:hover{
+   background-color: gray;
+   color: white;
 }
 
 .nav-container h3 {
@@ -39,11 +46,13 @@
 
 .nav-container img {
     width: 60px;
-    margin-bottom: 50px;
 }
 
 .G {
     color: #FF42A5;
+}
+.nav-right-side img{
+width: 20px;
 }
 
 /* banner container */
@@ -55,27 +64,25 @@
 }
 
 .banner-title-container {
+    height: 400px;
+    padding-left: 100px;
+    padding-right: 320px;
+    padding-top: 100px;
     align-items: center;
     background-image: url(images/Group\ 14.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* width: 600px; */
-    height: 400px;
-    padding-left: 190px;
-    padding-right: 200px;
-    padding-top: 80px;
 
 }
+.banner-container-img{
 
-.banner-container-img {
-    position: relative;
-    padding-left: 50px;
 }
 
 .banner-container-img img {
-    width: 60%;
-    padding-left: 130px;
+    width: 75%;
+    padding-left: 60px;
+    padding-bottom: 40px;
 }
 
 
@@ -101,7 +108,7 @@
 }
 
 .btn {
-    padding:8px 12px ;
+    padding: 8px 12px;
     background-color: #F948B2;
     padding: 10px 10px 10px 10px;
     border-radius: 20px;
@@ -109,11 +116,11 @@
 }
 
 .btntoo {
-    padding:8px 12px ;
+    padding: 8px 12px;
     margin: 10px;
     background-color: #4EC5F7;
 }
-
+/* onilne sectione  */
 .online-cotainer {
     text-align: center;
     margin-top: 50px;
@@ -121,16 +128,18 @@
 
 .game-img-container {
     display: flex;
-    justify-content: space-around
-    ;
+    margin: 0 100px;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
 }
 
-div img {
+.game-img-container img {
     margin-top: 50px;
-    width: 70%;
-    margin-left: 45px;
+    width: 100%;
 }
-.game-descrptione{
+
+.game-descrptione {
     text-align: center;
     margin-top: 10px;
     margin-right: 20px;
@@ -156,8 +165,8 @@ div img {
 .angle {
     width: 33%;
     position: absolute;
-    top: -350px;
-    left: -20px;
+    top: -285px;
+    left: -25px;
 }
 
 
@@ -193,7 +202,6 @@ div img {
     margin: auto;
 
 }
-
 .icon-boder {
     display: flex;
     justify-content: space-around;
@@ -201,7 +209,7 @@ div img {
     align-items: center;
     padding-top: 50px;
     border-radius: 5px;
-    background-color:  rgb(252, 252, 252);
+    background-color: rgb(252, 252, 252);
     padding-left: 30px;
 }
 
@@ -210,35 +218,39 @@ div img {
     font-size: 13px;
     font-weight: 20px;
 }
-.buttone-too-side{
-   
+
+.buttone-too-side {
+
     display: flex;
     justify-content: space-around;
     width: 50%;
     margin: auto;
     gap: 80px;
 }
+
 /* footer sectone */
-.footer-maine{ 
-    margin-top: 40px;  
+.footer-maine {
+    margin-top: 40px;
     background-color: #0B0223;
 }
-.footer-img-container{
-    padding-top: 30px;
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    padding-right: 50px;
+
+.footer-img-container {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 25px;
 }
-.footer-img-container img{
+
+.footer-img-container img {
     width: 60px;
 }
-.footer-img-container h3{
+
+.footer-img-container h3 {
     font-size: 30px;
     padding-top: 48px;
 }
-.descriptone-footer{
+
+.descriptone-footer {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -246,30 +258,36 @@ div img {
     font-size: 20px;
     color: #FFF;
 }
-.amar{
+
+.amar {
     color: white;
 }
-.icon-logo-container{
+
+.icon-logo-container {
+    padding-top: 30px;
     text-align: center;
     padding-bottom: 50px;
     padding-right: 40px;
 }
-.icon-logo{
-    width: 40px;
-  
-}
-.footer-small-container{
-    display: flex;
-    justify-content: center;
-    text-align: center; 
-    gap:25px;  
+
+.icon-logo {
+    width: 30px;
+
 }
 
-.footer-small{
-    color: rgba(255, 255, 255, 0.60);
-   
+.footer-small-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;
 }
-.footer-last-part{
+
+.footer-small {
+    color: rgba(255, 255, 255, 0.60);
+
+}
+
+.footer-last-part {
     padding-top: 30px;
     text-align: center;
 }

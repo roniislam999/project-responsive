@@ -2,10 +2,13 @@
 @media screen and (max-width:576px) {
     .nav-container {
         flex-direction: column;
+        height: 50%;
+        padding-top: 20px;
 
     }
 
     .nav-right-side {
+        padding-top: 20px;
         flex-direction: column;
         align-items: center;
 
@@ -13,16 +16,18 @@
     }
 
     .nav-left-side {
-        margin-left: 220px;
-    }
-
-    .nav-right-side a {
-        margin-top: 20px;
+        padding-top: 10px;
+        margin-left: 280px;
     }
 
     .banner-title-container {
-        padding-left: 10px;
-        padding-right: 20px;
+        padding-top: 100px;
+        padding-left: 110px;
+        padding-right: 110px;
+    }
+
+    .game-img-container {
+        margin: 0 10px;
     }
 
     .banner-container-img {
@@ -35,13 +40,13 @@
     }
 
     .banner-container-img img {
-        width: 70%;
-        padding-left: 0;
+        width: 80%;
+        padding-left: 35px;
     }
 
     .game-img-container {
         flex-direction: column;
-        margin-left: 22px;
+        margin-left: 11px;
     }
 
     .play-container {
@@ -51,12 +56,13 @@
     }
 
     .third-universiry {
-        padding-left: 40px;
+        padding-left: 90px;
     }
 
     .angle {
-        padding-top: 120px;
-        padding-left: 20px;
+        width: 120px;
+        padding-left: 70px;
+        padding-top: 100px;
     }
 
     /* buttone sectione */
@@ -87,6 +93,7 @@
         margin: auto;
 
     }
+
     .icon-descriptione {
         text-align: center;
 
@@ -115,8 +122,7 @@
 
     .icon-logo-container {
         text-align: center;
-        padding-bottom: 50px;
-        padding-right: 50px;
+        padding-left: 40px;
     }
 
     .icon-logo {
@@ -128,7 +134,6 @@
         font-size: 10px;
         padding-left: 25px;
         padding-right: 25px;
-        padding-bottom: 20px;
     }
 
     .footer-last-part {
