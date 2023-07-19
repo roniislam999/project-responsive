@@ -52,9 +52,10 @@
 .banner-container {
     display: flex;
     justify-content: space-around;
-    
+
 }
-.banner-title-container{
+
+.banner-title-container {
     margin-top: 50px;
     align-items: center;
     background-image: url(images/Group\ 14.png);
@@ -64,18 +65,19 @@
     width: 600px;
     height: 400px;
     padding-left: 190px;
-    
+
 }
 
-.banner-container-img{
+.banner-container-img {
     position: relative;
     padding-left: 50px;
 }
-.banner-container-img img{
-    width: 50%;
-    margin-left: 120px;
+
+.banner-container-img img {
+    width: 60%;
+    margin-left: 80px;
 }
-   
+
 
 .banner-title {
     color: #0B0223;
@@ -90,68 +92,123 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.title-descritione{
+
+.title-descritione {
     color: #534C64;
     margin-top: 10px;
     font-size: 12px;
 }
-.btn{
+
+.btn {
     margin-top: 10px;
     background-color: #F948B2;
     padding: 10px 10px 10px 10px;
     border-radius: 15px;
     color: white;
 }
-.btntoo{
-    background-color:#4EC5F7;
+
+.btntoo {
+    background-color: #4EC5F7;
 }
 
-.online-cotainer{
+.online-cotainer {
     text-align: center;
     margin-top: 50px;
 }
-.game-img-container{
+
+.game-img-container {
     display: flex;
     justify-content: space-around
-    
-    /* justify-content: space-around; */;
+        /* justify-content: space-around; */
+    ;
 }
-div img{
+
+div img {
     margin-top: 50px;
     width: 70%;
     margin-left: 45px;
 }
+
 /* play sectione */
-.play-container{
+.play-container {
     display: flex;
     justify-content: space-around;
     text-align: center;
 }
-.third-universiry{
+
+.third-universiry {
     width: 70%;
     margin-top: 70px;
     margin-bottom: 48px;
 }
-.pic-too{
+
+.pic-too {
     position: relative;
 }
-.angle{
+
+.angle {
     width: 33%;
     position: absolute;
     top: -310px;
-    left:-20px;
+    left: -20px;
 }
 
 
-.play-container{
+.play-container {
     position: relative;
 }
-.Play-Instantly-text h3{
+
+.Play-Instantly-text h3 {
     font-size: 40px;
 }
-.Play-Instantly-text{
+
+.Play-Instantly-text {
     color: #0B0223;
     margin-top: 200px;
     margin-left: 100px;
 }
 
+/* buttone sectione */
+.buttone-oneside {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+    gap: 100px;
+
+
+}
+
+.icon {
+    width: 50px;
+    border-radius: 50px;
+    background: #FFF;
+    margin: auto;
+
+}
+
+.icon-boder {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+    margin-top: 90px;
+    border-radius: 5px;
+    background-color:  rgb(252, 252, 252);
+    padding-left: 30px;
+}
+
+.icon-descriptione {
+
+    font-size: 13px;
+    font-weight: 20px;
+}
+.buttone-too-side{
+   
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+    gap: 80px;
+
+}
