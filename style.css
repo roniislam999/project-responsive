@@ -118,7 +118,6 @@
 .game-img-container {
     display: flex;
     justify-content: space-around
-        /* justify-content: space-around; */
     ;
 }
 
@@ -126,6 +125,11 @@ div img {
     margin-top: 50px;
     width: 70%;
     margin-left: 45px;
+}
+.game-descrptione{
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 20px;
 }
 
 /* play sectione */
