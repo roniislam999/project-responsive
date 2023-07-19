@@ -49,6 +49,22 @@
         padding-left: 20px;
     }
 
+    /* buttone sectione */
+
+    .buttone-oneside {
+     gap: 20px;
+    }
+    .icon-boder{
+        flex-direction: column;
+        padding: 1px;
+        
+       
+    }
+    .buttone-too-side{
+        margin-top: 30px;
+        gap: 10px;
+        width: 80%;
+    }
 }
 
 /* Tablet responsive */

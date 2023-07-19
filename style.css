@@ -195,7 +195,7 @@ div img {
     justify-content: space-around;
     gap: 20px;
     align-items: center;
-    margin-top: 90px;
+    padding-top: 50px;
     border-radius: 5px;
     background-color:  rgb(252, 252, 252);
     padding-left: 30px;
