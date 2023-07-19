@@ -13,13 +13,11 @@
     justify-content: space-around;
     text-align: center;
     align-items: center;
-    margin-top: 20px;
     background-color: white;
 }
 
 .nav-left-side {
     display: flex;
-
     align-items: center;
     gap: 10px;
     margin-right: 180px;
@@ -56,7 +54,6 @@
 }
 
 .banner-title-container {
-    margin-top: 50px;
     align-items: center;
     background-image: url(images/Group\ 14.png);
     background-repeat: no-repeat;
@@ -95,7 +92,6 @@
 
 .title-descritione {
     color: #534C64;
-    margin-top: 10px;
     font-size: 12px;
 }
 
@@ -210,12 +206,9 @@ div img {
     width: 50%;
     margin: auto;
     gap: 80px;
-
 }
 /* footer sectone */
-.footer-image{
-    
-    border: 2px solid red;
+.footer-maine{
     margin-top: 30px;
     background-color: #0B0223;
 }
@@ -270,5 +263,4 @@ div img {
 .footer-last-part{
     margin-top: 10px;
     text-align: center;
-    margin-bottom: 10px;
 }
