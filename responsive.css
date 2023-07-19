@@ -36,8 +36,20 @@
         flex-direction: column;
         margin-left: 22px;
     }
+    .play-container {
+        flex-direction: column;
+        padding-right: 80px;
 
+    }
+    .third-universiry{
+        padding-left: 40px; 
+    }
+    .angle{
+        padding-top: 120px;
+        padding-left: 20px;
+    }
 
+}
 
 /* Tablet responsive */
 @media screen and (max-width:992px) {
