@@ -64,7 +64,7 @@
     height: 400px;
     padding-left: 190px;
     padding-right: 200px;
-    padding-top: 50px;
+    padding-top: 80px;
 
 }
 
@@ -81,11 +81,12 @@
 
 .banner-title {
     color: #0B0223;
-    font-size: 30px;
+    font-size: 26px;
 
 }
 
 .banner-title-too {
+    padding-top: 5px;
     font-size: 55px;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -94,19 +95,22 @@
 }
 
 .title-descritione {
+    padding-top: 8px;
     color: #534C64;
     font-size: 12px;
 }
 
 .btn {
-    margin-top: 10px;
+    padding:8px 12px ;
     background-color: #F948B2;
     padding: 10px 10px 10px 10px;
-    border-radius: 15px;
+    border-radius: 20px;
     color: white;
 }
 
 .btntoo {
+    padding:8px 12px ;
+    margin: 10px;
     background-color: #4EC5F7;
 }
 
@@ -215,52 +219,50 @@ div img {
     gap: 80px;
 }
 /* footer sectone */
-.footer-maine{
-    margin-top: 30px;
+.footer-maine{ 
+    margin-top: 40px;  
     background-color: #0B0223;
 }
 .footer-img-container{
-    margin-top: 20px;
+    padding-top: 30px;
     display: flex;
     gap: 10px;
     justify-content: center;
     align-items: center;
+    padding-right: 50px;
 }
 .footer-img-container img{
     width: 60px;
 }
 .footer-img-container h3{
     font-size: 30px;
-    margin-top: 50px;
+    padding-top: 48px;
 }
 .descriptone-footer{
     display: flex;
     justify-content: center;
-    gap: 50px;
-    margin-top: 25px;
-    font-size: 15px;
+    gap: 20px;
+    padding-top: 35px;
+    font-size: 20px;
     color: #FFF;
-    margin-left: 50px;
 }
 .amar{
     color: white;
 }
 .icon-logo-container{
-    margin-bottom: 30px;
-    margin-left:490px;
-    align-items: center;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-right: 40px;
 }
 .icon-logo{
     width: 40px;
   
 }
 .footer-small-container{
-    margin-bottom: 30px;
     display: flex;
-    text-align: center;
-    justify-content: center;    
-    /* margin-top: 50px; */
-    gap: 30px;
+    justify-content: center;
+    text-align: center; 
+    gap:25px;  
 }
 
 .footer-small{
@@ -268,10 +270,6 @@ div img {
    
 }
 .footer-last-part{
-    margin-top: 10px;
+    padding-top: 30px;
     text-align: center;
-}
-
-.display-none{
-    display: none;
 }

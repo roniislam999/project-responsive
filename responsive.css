@@ -1,50 +1,60 @@
 /* mobile responsive */
 @media screen and (max-width:576px) {
-    .nav-container{
+    .nav-container {
         flex-direction: column;
-       
+
     }
-    .nav-right-side{
+
+    .nav-right-side {
         flex-direction: column;
         align-items: center;
 
-        
+
     }
-    .nav-left-side{
+
+    .nav-left-side {
         margin-left: 220px;
     }
-    .nav-right-side a{
+
+    .nav-right-side a {
         margin-top: 20px;
     }
 
-    .banner-title-container{
+    .banner-title-container {
         padding-left: 10px;
-    padding-right: 20px;
+        padding-right: 20px;
     }
+
     .banner-container-img {
         padding-left: 0px;
     }
-    .banner-container{
+
+    .banner-container {
         flex-direction: column;
         margin-top: 20px;
     }
+
     .banner-container-img img {
         width: 70%;
         padding-left: 0;
     }
-    .game-img-container{
+
+    .game-img-container {
         flex-direction: column;
         margin-left: 22px;
     }
+
     .play-container {
         flex-direction: column;
         padding-right: 80px;
 
     }
-    .third-universiry{
-        padding-left: 40px; 
+
+    .third-universiry {
+        padding-left: 40px;
     }
-    .angle{
+
+    .angle {
         padding-top: 120px;
         padding-left: 20px;
     }
@@ -52,22 +62,86 @@
     /* buttone sectione */
 
     .buttone-oneside {
-     gap: 20px;
+        gap: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
-    .icon-boder{
+
+    .icon-boder {
         flex-direction: column;
         padding: 1px;
-        
-       
+
+
     }
-    .buttone-too-side{
+
+    .buttone-too-side {
         margin-top: 30px;
         gap: 10px;
         width: 80%;
     }
+
+    .icon {
+        width: 35px;
+        border-radius: 20px;
+        background: #FFF;
+        margin: auto;
+
+    }
+    .icon-descriptione {
+        text-align: center;
+
+        font-size: 10px;
+        font-weight: 15px;
+    }
+
+    /* footer sectione */
+
+    .footer-small-container {
+        gap: 30px;
+    }
+
+    .descriptone-footer {
+        font-size: 8px;
+    }
+
+    .footer-img-container img {
+        width: 50px;
+    }
+
+    .footer-img-container h3 {
+        font-size: 20px;
+        padding-top: 48px;
+    }
+
+    .icon-logo-container {
+        text-align: center;
+        padding-bottom: 50px;
+        padding-right: 50px;
+    }
+
+    .icon-logo {
+        width: 25px;
+
+    }
+
+    .footer-small-container {
+        font-size: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 20px;
+    }
+
+    .footer-last-part {
+        padding-bottom: 40px;
+        font-size: 9px;
+    }
+
+    .footer-maine {
+        margin-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }
 
 /* Tablet responsive */
-@media screen and (max-width:992px) {
-    
-}
+@media screen and (max-width:992px) {}
