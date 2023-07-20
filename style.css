@@ -132,13 +132,38 @@ width: 20px;
     justify-content: center;
     gap: 10px;
     text-align: center;
+    margin-top: 50px;
 }
 
 .game-img-container img {
-    margin-top: 50px;
     width: 100%;
 }
 
+.watch-container{
+    position: relative;
+}
+
+.watch-container:hover .watch{
+    display: flex;
+}
+.watch{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+    color: white;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.watch img{
+    width: 20px;
+}
 .game-descrptione {
     text-align: center;
     margin-top: 10px;
